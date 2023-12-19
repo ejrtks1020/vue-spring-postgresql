@@ -1,0 +1,16 @@
+2023-11-28 16:43:09.327609+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2023-11-28 16:43:09.333006+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2023-11-28 17:50:02.724472+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2023-11-29 10:18:19.865076+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2023-11-29 10:19:01.526456+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2023-11-29 10:30:35.013207+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM QUESTION QUESTION [*]ANSWER"; SQL statement:
+SELECT * FROM QUESTION QUESTION ANSWER [42000-224]
+2023-11-29 10:30:37.327101+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM QUESTION QUESTION [*]ANSWER QUESTION"; SQL statement:
+SELECT * FROM QUESTION QUESTION ANSWER QUESTION [42000-224]
